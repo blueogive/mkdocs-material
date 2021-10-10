@@ -10,13 +10,13 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-FROM squidfunk/mkdocs-material:5.2.2
+FROM squidfunk/mkdocs-material:7.3.2
 
 RUN apk add --no-cache \
     build-base \
     libffi-dev \
     openssl-dev \
-    python-dev \
+    python3-dev \
     curl \
     krb5-dev \
     linux-headers \
